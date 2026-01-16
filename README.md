@@ -163,18 +163,3 @@ Flag After: 2499001032858166085
 DRAINED: 2498979367223696585
 *** SUCCESS - POOL DRAINED! ***
 ```
-
----
-
-## Timeline
-
-| Step | Action | Result |
-|------|--------|--------|
-| 1 | Initial analysis | Identified CEI violation in `unstakeFor` |
-| 2 | Storage slot discovery | Found Staker slot 2 & 4, LP Token slot 51 |
-| 3 | Phase 1 exploit | Drained staked LP tokens (~1.149 ETH) |
-| 4 | Phase 2 exploit | Drained non-staked LP tokens (~1.349 ETH) |
-| 5 | Validation | Pool drained to 1 wei, ~2.498 ETH |
-**Date:** 2026-01-16
-**Chain:** Ethereum Mainnet Fork
-**Tools:** Foundry, Cast
