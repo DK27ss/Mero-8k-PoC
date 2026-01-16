@@ -142,7 +142,6 @@ No `nonReentrant` modifier is present on critical functions:
 ├─────────────────────────────────────────────────────────────┤
 │  Pool Before:   2,498,402,345,675,643,414 wei (~2.498 ETH)  │
 │  Pool After:    1 wei                                       │
-│  Flag Receiver: 2,499,001,032,858,166,085 wei (~2.499 ETH)  │
 │  Total Drained: 2,498,979,367,223,696,585 wei (~2.498 ETH)  │
 └─────────────────────────────────────────────────────────────┘
 ```
